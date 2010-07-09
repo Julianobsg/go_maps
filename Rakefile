@@ -5,11 +5,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "go_maps"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "bruno.grasselli@gmail.com"
-    gem.homepage = "http://github.com/BrunoGrasselli/go_maps"
-    gem.authors = ["BrunoGrasselli"]
+    gem.summary = %Q{Easy way to get the distance between two addresses (by car)}
+    gem.description = %Q{Easy way to get the distance between two addresses (by car)}
+    gem.homepage = "http://github.com/gonow/go_maps"
+    gem.authors = ["Gonow"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_development_dependency "fakeweb", ">= 1.2.8"
     gem.add_dependency("crack", ">= 0.1.6")
