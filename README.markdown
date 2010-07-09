@@ -1,8 +1,8 @@
-= GoMaps
+## ABOUT
 
 Easy way to get the distance between two addresses (by car)
 
-== LICENSE
+## LICENSE
 
 (The MIT License)
 
