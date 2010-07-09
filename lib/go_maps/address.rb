@@ -5,12 +5,29 @@ module GoMaps
     end
 
     def exists?
-      GoMaps.parse_location_from(@address)['status'] == 'OK'
+      location['status'] == 'OK'
     end
 
     def distance_to(address)
-      GoMaps.parse_distance_from "origin=#{@address}&destination=#{address}"
+      directions_to(address)['routes'].first['legs'].first['distance']['text'].gsub(' km', '').gsub(',', '.').to_f rescue raise AddressNotFoundException
+    end
+
+    private
+
+    def directions_to(address)
+      api_response :directions, "origin=#{@address}&destination=#{address}"
+    end
+
+    def location
+      api_response :geocode, "address=#{@address}"
+    end
+
+    def api_response(api, query_string)
+      Crack::JSON.parse open(URI.escape(url_for(api) + query_string)).read
+    end
+
+    def url_for(api)
+      "http://maps.google.com/maps/api/#{api}/json?sensor=false&language=pt-BR&"
     end
   end
 end
-
