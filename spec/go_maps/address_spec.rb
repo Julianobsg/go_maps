@@ -23,7 +23,7 @@ describe 'GoMaps::Address' do
     end
 
     it 'should raise AddressNotFoundException given invalid addresses' do
-      address1, address2 = 'Invalid Valid Address 1', 'Invalid Valid Address 2'
+      address1, address2 = 'Invalid Address 1', 'Invalid Address 2'
       map_addresses_to_file address1, address2, 'distance_error'
       lambda { GoMaps::Address.new(address1).distance_to(address2) }.should raise_error(GoMaps::AddressNotFoundException)
     end
