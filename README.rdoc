@@ -1,6 +1,6 @@
-= go_maps
+= GoMaps
 
-Description goes here.
+Easy way to get the distance between two addresses (by car)
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +14,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 BrunoGrasselli. See LICENSE for details.
+Copyright (c) 2010 Gonow. See LICENSE for details.
