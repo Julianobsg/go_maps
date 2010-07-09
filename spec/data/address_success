@@ -1,0 +1,356 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "street_address" ],
+    "formatted_address": "R. Tenerife, 31 - Vila Anchieta, São José do Rio Preto - São Paulo, 15050-120, Brasil",
+    "address_components": [ {
+      "long_name": "31",
+      "short_name": "31",
+      "types": [ "street_number" ]
+    }, {
+      "long_name": "R. Tenerife",
+      "short_name": "R. Tenerife",
+      "types": [ "route" ]
+    }, {
+      "long_name": "Vila Anchieta",
+      "short_name": "Vila Anchieta",
+      "types": [ "neighborhood", "political" ]
+    }, {
+      "long_name": "São José do Rio Preto",
+      "short_name": "São José do Rio Preto",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "São Paulo",
+      "short_name": "São Paulo",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Brasil",
+      "short_name": "BR",
+      "types": [ "country", "political" ]
+    }, {
+      "long_name": "15050-120",
+      "short_name": "15050-120",
+      "types": [ "postal_code" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": -20.8011840,
+        "lng": -49.3747043
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "southwest": {
+          "lat": -20.8043407,
+          "lng": -49.3778522
+        },
+        "northeast": {
+          "lat": -20.7980455,
+          "lng": -49.3715569
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": -20.8012022,
+          "lng": -49.3747048
+        },
+        "northeast": {
+          "lat": -20.8011840,
+          "lng": -49.3747043
+        }
+      }
+    }
+  }, {
+    "types": [ "street_address" ],
+    "formatted_address": "R. Tenerife, 31 - Jardim Atlântico, Belo Horizonte - MG, 31550-220, Brasil",
+    "address_components": [ {
+      "long_name": "31",
+      "short_name": "31",
+      "types": [ "street_number" ]
+    }, {
+      "long_name": "R. Tenerife",
+      "short_name": "R. Tenerife",
+      "types": [ "route" ]
+    }, {
+      "long_name": "Jardim Atlântico",
+      "short_name": "Jardim Atlântico",
+      "types": [ "neighborhood", "political" ]
+    }, {
+      "long_name": "Belo Horizonte",
+      "short_name": "Belo Horizonte",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Minas Gerais",
+      "short_name": "MG",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Brasil",
+      "short_name": "BR",
+      "types": [ "country", "political" ]
+    }, {
+      "long_name": "31550-220",
+      "short_name": "31550-220",
+      "types": [ "postal_code" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": -19.8425571,
+        "lng": -43.9901379
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "southwest": {
+          "lat": -19.8456962,
+          "lng": -43.9932891
+        },
+        "northeast": {
+          "lat": -19.8394010,
+          "lng": -43.9869938
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": -19.8425571,
+          "lng": -43.9901450
+        },
+        "northeast": {
+          "lat": -19.8425401,
+          "lng": -43.9901379
+        }
+      }
+    }
+  }, {
+    "types": [ "street_address" ],
+    "formatted_address": "R. Tenerife, 31 - Jardim Industrial, Contagem - MG, 32220-080, Brasil",
+    "address_components": [ {
+      "long_name": "31",
+      "short_name": "31",
+      "types": [ "street_number" ]
+    }, {
+      "long_name": "R. Tenerife",
+      "short_name": "R. Tenerife",
+      "types": [ "route" ]
+    }, {
+      "long_name": "Jardim Industrial",
+      "short_name": "Jardim Industrial",
+      "types": [ "neighborhood", "political" ]
+    }, {
+      "long_name": "Contagem",
+      "short_name": "Contagem",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Minas Gerais",
+      "short_name": "MG",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Brasil",
+      "short_name": "BR",
+      "types": [ "country", "political" ]
+    }, {
+      "long_name": "32220-080",
+      "short_name": "32220-080",
+      "types": [ "postal_code" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": -19.9674684,
+        "lng": -44.0224518
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "southwest": {
+          "lat": -19.9706228,
+          "lng": -44.0256060
+        },
+        "northeast": {
+          "lat": -19.9643275,
+          "lng": -44.0193108
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": -19.9674819,
+          "lng": -44.0224650
+        },
+        "northeast": {
+          "lat": -19.9674684,
+          "lng": -44.0224518
+        }
+      }
+    }
+  }, {
+    "types": [ "street_address" ],
+    "formatted_address": "R. Tenerife, 31 - Itaim Bibi, São Paulo, 04548-040, Brasil",
+    "address_components": [ {
+      "long_name": "31",
+      "short_name": "31",
+      "types": [ "street_number" ]
+    }, {
+      "long_name": "R. Tenerife",
+      "short_name": "R. Tenerife",
+      "types": [ "route" ]
+    }, {
+      "long_name": "Itaim Bibi",
+      "short_name": "Itaim Bibi",
+      "types": [ "neighborhood", "political" ]
+    }, {
+      "long_name": "São Paulo",
+      "short_name": "São Paulo",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "São Paulo",
+      "short_name": "São Paulo",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Brasil",
+      "short_name": "BR",
+      "types": [ "country", "political" ]
+    }, {
+      "long_name": "04548-040",
+      "short_name": "04548-040",
+      "types": [ "postal_code" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": -23.5962501,
+        "lng": -46.6878790
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "southwest": {
+          "lat": -23.5993942,
+          "lng": -46.6910355
+        },
+        "northeast": {
+          "lat": -23.5930989,
+          "lng": -46.6847403
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": -23.5962501,
+          "lng": -46.6878968
+        },
+        "northeast": {
+          "lat": -23.5962430,
+          "lng": -46.6878790
+        }
+      }
+    }
+  }, {
+    "types": [ "street_address" ],
+    "formatted_address": "R. Tenerife, 31 - Fazenda Rio Grande - PR, 83820-000, Brasil",
+    "address_components": [ {
+      "long_name": "31",
+      "short_name": "31",
+      "types": [ "street_number" ]
+    }, {
+      "long_name": "R. Tenerife",
+      "short_name": "R. Tenerife",
+      "types": [ "route" ]
+    }, {
+      "long_name": "Fazenda Rio Grande",
+      "short_name": "Fazenda Rio Grande",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Paraná",
+      "short_name": "PR",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Brasil",
+      "short_name": "BR",
+      "types": [ "country", "political" ]
+    }, {
+      "long_name": "83820-000",
+      "short_name": "83820-000",
+      "types": [ "postal_code" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": -25.6641852,
+        "lng": -49.3006341
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "southwest": {
+          "lat": -25.6673372,
+          "lng": -49.3037901
+        },
+        "northeast": {
+          "lat": -25.6610420,
+          "lng": -49.2974949
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": -25.6641940,
+          "lng": -49.3006509
+        },
+        "northeast": {
+          "lat": -25.6641852,
+          "lng": -49.3006341
+        }
+      }
+    }
+  }, {
+    "types": [ "street_address" ],
+    "formatted_address": "R. Tenerife, 31 - Parada de Lucas, Rio de Janeiro - RJ, 21010-000, Brasil",
+    "address_components": [ {
+      "long_name": "31",
+      "short_name": "31",
+      "types": [ "street_number" ]
+    }, {
+      "long_name": "R. Tenerife",
+      "short_name": "R. Tenerife",
+      "types": [ "route" ]
+    }, {
+      "long_name": "Parada de Lucas",
+      "short_name": "Parada de Lucas",
+      "types": [ "neighborhood", "political" ]
+    }, {
+      "long_name": "Rio de Janeiro",
+      "short_name": "Rio de Janeiro",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Rio de Janeiro",
+      "short_name": "RJ",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Brasil",
+      "short_name": "BR",
+      "types": [ "country", "political" ]
+    }, {
+      "long_name": "21010-000",
+      "short_name": "21010-000",
+      "types": [ "postal_code" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": -22.8167748,
+        "lng": -43.2958111
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "southwest": {
+          "lat": -22.8199308,
+          "lng": -43.2989551
+        },
+        "northeast": {
+          "lat": -22.8136355,
+          "lng": -43.2926599
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": -22.8167915,
+          "lng": -43.2958111
+        },
+        "northeast": {
+          "lat": -22.8167748,
+          "lng": -43.2958039
+        }
+      }
+    },
+    "partial_match": true
+  } ]
+}
+
