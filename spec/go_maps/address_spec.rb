@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe 'GoMaps::Address' do
+describe GoMaps::Address do
   context 'on #exists?' do
     it 'should return true given a valid address' do
       address = 'Valid Address'
