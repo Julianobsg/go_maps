@@ -5,6 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "go_maps"
+    gem.version = "0.0.1"
     gem.summary = %Q{Easy way to get the distance between two addresses (by car)}
     gem.description = %Q{Easy way to get the distance between two addresses (by car)}
     gem.homepage = "http://github.com/gonow/go_maps"
