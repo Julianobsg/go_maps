@@ -20,7 +20,7 @@ end
 
 def map_query_string_to_file(query_string, file_name)
   api = query_string.include?('destination') ? 'directions' : 'geocode'
-  map_url_to_file "http://maps.google.com/maps/api/#{api}/json?sensor=false&language=pt-BR&#{query_string}", file_name
+  map_url_to_file "http://maps.google.com/maps/api/#{api}/json?sensor=false&#{query_string}", file_name
 end
 
 def map_url_to_file(url, file_name)
