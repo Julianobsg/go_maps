@@ -9,7 +9,7 @@ module GoMaps
     end
 
     def distance_to(address)
-      directions_to(address)['routes'].first['legs'].first['distance']['text'].gsub(' km', '').gsub(',', '.').to_f rescue raise AddressNotFoundException
+      directions_to(address)['routes'].first['legs'].first['distance']['text'].to_f rescue raise AddressNotFoundException
     end
 
     private
@@ -27,7 +27,7 @@ module GoMaps
     end
 
     def url_for(api)
-      "http://maps.google.com/maps/api/#{api}/json?sensor=false&language=pt-BR&"
+      "http://maps.google.com/maps/api/#{api}/json?sensor=false&"
     end
   end
 end
