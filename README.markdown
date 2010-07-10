@@ -1,6 +1,13 @@
 ## ABOUT
 
-Easy way to get the distance between two addresses (by car)
+Ruby API to geographic operations. Currently it supports the validation of an address and the distance between two of them.
+
+## USAGE
+
+    address = Address.new "Rua Tenerife, 31, Sao Paulo, Brazil"
+    address.exists?
+    address.distance_to "Av Paulista, Sao Paulo, Brazil"
+
 
 ## LICENSE
 
