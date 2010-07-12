@@ -18,8 +18,8 @@ describe GoMaps::Address do
   context 'on #distance_to' do
     it 'should return the distance given valid addresses' do
       address1, address2 = 'Valid Address 1', 'Valid Address 2'
-      map_addresses_to_file address1, address2, 'distance_success_10.77'
-      GoMaps::Address.new(address1).distance_to(address2).should == 10.77
+      map_addresses_to_file address1, address2, 'distance_success_10.8'
+      GoMaps::Address.new(address1).distance_to(address2).should == 10.8
     end
 
     it 'should raise AddressNotFoundException given invalid addresses' do
