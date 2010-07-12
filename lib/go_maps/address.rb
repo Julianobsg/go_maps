@@ -9,7 +9,7 @@ module GoMaps
     end
 
     def distance_to(address)
-      directions_to(address)['routes'].first['legs'].first['distance']['value'] rescue raise AddressNotFoundException
+      sprintf('%.2f', directions_to(address)['routes'].first['legs'].first['distance']['value'] / 1_000.00).to_f rescue raise AddressNotFoundException
     end
 
     private
