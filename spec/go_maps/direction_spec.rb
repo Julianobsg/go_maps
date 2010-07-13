@@ -7,7 +7,7 @@ describe GoMaps::Direction do
     end
 
     it 'should return a map' do
-      GoMaps::Direction.new(:from => @address1, :to => @address2).to_map.should match(/<iframe.*maps.*#{@address1}.*#{@address2}.*><\/iframe>/)
+      GoMaps::Direction.new(:from => @address1, :to => @address2).to_map.should eql("<iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com/maps?ie=UTF8&output=embed&saddr=#{@address1}&daddr=#{@address2}'></iframe>")
     end
 
     it 'should accept width as an option' do
