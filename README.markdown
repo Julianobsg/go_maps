@@ -4,10 +4,10 @@ Ruby API to geographic operations. Currently it supports the validation of an ad
 
 ## USAGE
 
-    address = Address.new "Rua Tenerife, 31, Sao Paulo, Brazil"
+    address = Address.new "Rua Tenerife, 31, Sao Paulo, Brasil"
     address.exists?
-    address.distance_to "Av Paulista, Sao Paulo, Brazil"
-
+    address.distance_to "Av Paulista, Sao Paulo, Brasil"
+    GoMaps::Direction.new(:from => "Av Paulista 100, Sao Paulo, Brasil", :to => "Avenida Brigadeiro Faria Lima 1000, Sao Paulo, Brasil").to_map
 
 ## LICENSE
 
