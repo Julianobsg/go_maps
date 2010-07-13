@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'rake'
 
+ENV['RSPEC_COLOR'] = 'true'
+
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
