@@ -1,12 +1,18 @@
 ## ABOUT
 
-Ruby API to geographic operations. Currently it supports the validation of an address and the distance between two of them.
+Ruby API to geographic operations.
+
+Currently it supports:
+* Validation of an address
+* Distance between two addresses.
+* Map with route between two addresses
 
 ## USAGE
 
     address = Address.new "Rua Tenerife, 31, Sao Paulo, Brasil"
     address.exists?
     address.distance_to "Av Paulista, Sao Paulo, Brasil"
+
     GoMaps::Direction.new(:from => "Av Paulista 100, Sao Paulo, Brasil", :to => "Avenida Brigadeiro Faria Lima 1000, Sao Paulo, Brasil").to_map
 
 ## LICENSE
