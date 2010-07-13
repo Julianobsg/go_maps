@@ -1,5 +1,5 @@
 require 'crack'
 require 'open-uri'
-require 'go_maps/address'
-require 'go_maps/direction'
-require 'go_maps/address_not_found_exception'
+
+Dir.glob(File.dirname(__FILE__) + '/go_maps/*.rb').each { |file| require file }
+
