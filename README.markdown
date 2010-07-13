@@ -1,8 +1,7 @@
 ## ABOUT
 
-Ruby API to geographic operations.
+Ruby API to geographic operations. Currently it supports:
 
-Currently it supports:
 * Validation of an address
 * Distance between two addresses.
 * Map with route between two addresses
