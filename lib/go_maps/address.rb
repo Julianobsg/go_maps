@@ -9,7 +9,11 @@ module GoMaps
     end
 
     def distance_to(address)
-      directions_to(address)['routes'].first['legs'].first['distance']['text'].to_f rescue raise AddressNotFoundException
+      route_to(address)['distance']['text'].to_f
+    end
+
+    def route_to(address)
+      directions_to(address)['routes'].first['legs'].first rescue raise AddressNotFoundException
     end
 
     private

@@ -28,7 +28,7 @@ describe GoMaps::Direction do
 
     it 'should raise an address not found expection' do
       map_addresses_to_file(@address1, @address2, "direction_error")
-      lambda { @direction.to_s(@address1, @address2) }.should raise_error(GoMaps::AddressNotFoundException)
+      lambda { @direction.to_s }.should raise_error(GoMaps::AddressNotFoundException)
     end
   end
 end
