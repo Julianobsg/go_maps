@@ -1,0 +1,356 @@
+{
+  "status": "OK",
+    "routes": [ {
+      "summary": "R. da Consolação",
+      "legs": [ {
+        "steps": [ {
+          "travel_mode": "DRIVING",
+          "start_location": {
+            "lat": -23.5489400,
+            "lng": -46.6388200
+          },
+          "end_location": {
+            "lat": -23.5471000,
+            "lng": -46.6378600
+          },
+          "polyline": {
+            "points": "zkvnCrct{Ga@BcAMqCyAwB{A",
+            "levels": "B???B"
+          },
+          "duration": {
+            "value": 21,
+            "text": "1 min"
+          },
+          "html_instructions": "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eAv. Vinte e Três de Maio\u003c/b\u003e",
+          "distance": {
+            "value": 233,
+            "text": "0.2 km"
+          }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5471000,
+              "lng": -46.6378600
+            },
+            "end_location": {
+              "lat": -23.5435300,
+              "lng": -46.6354900
+            },
+            "polyline": {
+              "points": "j`vnCr}s{G_A{@_LaIiF{A",
+              "levels": "B??B"
+            },
+            "duration": {
+              "value": 42,
+              "text": "1 min"
+            },
+            "html_instructions": "Continue onto \u003cb\u003eAv. Nove de Julho\u003c/b\u003e",
+            "distance": {
+              "value": 469,
+              "text": "0.5 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5435300,
+              "lng": -46.6354900
+            },
+            "end_location": {
+              "lat": -23.5413800,
+              "lng": -46.6341800
+            },
+            "polyline": {
+              "points": "`junCxns{GoBmA}HwD",
+              "levels": "B?B"
+            },
+            "duration": {
+              "value": 25,
+              "text": "1 min"
+            },
+            "html_instructions": "Continue onto \u003cb\u003eAv. Prestes Maia\u003c/b\u003e",
+            "distance": {
+              "value": 274,
+              "text": "0.3 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5413800,
+              "lng": -46.6341800
+            },
+            "end_location": {
+              "lat": -23.5396300,
+              "lng": -46.6337300
+            },
+            "polyline": {
+              "points": "r|tnCrfs{G}@q@_Hg@",
+              "levels": "B?B"
+            },
+            "duration": {
+              "value": 50,
+              "text": "1 min"
+            },
+            "html_instructions": "Slight \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eR. Carlos de Sousa Nazaré\u003c/b\u003e",
+            "distance": {
+              "value": 204,
+              "text": "0.2 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5396300,
+              "lng": -46.6337300
+            },
+            "end_location": {
+              "lat": -23.5393200,
+              "lng": -46.6337000
+            },
+            "polyline": {
+              "points": "tqtnCxcs{G}@E",
+              "levels": "BB"
+            },
+            "duration": {
+              "value": 5,
+              "text": "1 min"
+            },
+            "html_instructions": "Take the ramp to \u003cb\u003eAv. Sen. Queirós\u003c/b\u003e",
+            "distance": {
+              "value": 35,
+              "text": "35 m"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5393200,
+              "lng": -46.6337000
+            },
+            "end_location": {
+              "lat": -23.5393100,
+              "lng": -46.6363100
+            },
+            "polyline": {
+              "points": "votnCrcs{GMnCcAzGJn@bAl@",
+              "levels": "B???B"
+            },
+            "duration": {
+              "value": 101,
+              "text": "2 mins"
+            },
+            "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e at \u003cb\u003eAv. Sen. Queirós\u003c/b\u003e",
+            "distance": {
+              "value": 293,
+              "text": "0.3 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5393100,
+              "lng": -46.6363100
+            },
+            "end_location": {
+              "lat": -23.5395400,
+              "lng": -46.6363600
+            },
+            "polyline": {
+              "points": "totnC|ss{Gl@H",
+              "levels": "BB"
+            },
+            "duration": {
+              "value": 5,
+              "text": "1 min"
+            },
+            "html_instructions": "Slight \u003cb\u003eleft\u003c/b\u003e at \u003cb\u003eAv. Cásper Líbero\u003c/b\u003e",
+            "distance": {
+              "value": 26,
+              "text": "26 m"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5395400,
+              "lng": -46.6363600
+            },
+            "end_location": {
+              "lat": -23.5472000,
+              "lng": -46.6457900
+            },
+            "polyline": {
+              "points": "bqtnCfts{GpK`RhG|GFVlCdDvBnDrBhBhC|CdCvDlEnD",
+              "levels": "B????????B"
+            },
+            "duration": {
+              "value": 168,
+              "text": "3 mins"
+            },
+            "html_instructions": "Slight \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eAv. Ipiranga\u003c/b\u003e",
+            "distance": {
+              "value": 1292,
+              "text": "1.3 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5472000,
+              "lng": -46.6457900
+            },
+            "end_location": {
+              "lat": -23.5562100,
+              "lng": -46.6641000
+            },
+            "polyline": {
+              "points": "~`vnCdou{GMjD^pDzHh]bGnM~KfWfItM~H~JvBvDV~@",
+              "levels": "B??@?????B"
+            },
+            "duration": {
+              "value": 227,
+              "text": "4 mins"
+            },
+            "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eR. da Consolação\u003c/b\u003e",
+            "distance": {
+              "value": 2157,
+              "text": "2.2 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5562100,
+              "lng": -46.6641000
+            },
+            "end_location": {
+              "lat": -23.5640900,
+              "lng": -46.6778000
+            },
+            "polyline": {
+              "points": "hywnCray{Gn@hErArF`IjMjJxS|F|KzBxDfCnD`CbEpBbE",
+              "levels": "B?@??????B"
+            },
+            "duration": {
+              "value": 150,
+              "text": "3 mins"
+            },
+            "html_instructions": "Continue onto \u003cb\u003eAv. Rebouças\u003c/b\u003e",
+            "distance": {
+              "value": 1660,
+              "text": "1.7 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5640900,
+              "lng": -46.6778000
+            },
+            "end_location": {
+              "lat": -23.5614200,
+              "lng": -46.6797600
+            },
+            "polyline": {
+              "points": "pjynCfw{{GuOfK",
+              "levels": "BB"
+            },
+            "duration": {
+              "value": 48,
+              "text": "1 min"
+            },
+            "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eR. Henrique Schaumann\u003c/b\u003e",
+            "distance": {
+              "value": 358,
+              "text": "0.4 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5614200,
+              "lng": -46.6797600
+            },
+            "end_location": {
+              "lat": -23.5625200,
+              "lng": -46.6816000
+            },
+            "polyline": {
+              "points": "zyxnCnc|{GzEnJ",
+              "levels": "BB"
+            },
+            "duration": {
+              "value": 64,
+              "text": "1 min"
+            },
+            "html_instructions": "Take the 1st \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. Artur de Azevedo\u003c/b\u003e",
+            "distance": {
+              "value": 224,
+              "text": "0.2 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5625200,
+              "lng": -46.6816000
+            },
+            "end_location": {
+              "lat": -23.5644800,
+              "lng": -46.6801000
+            },
+            "polyline": {
+              "points": "v`ynC~n|{GfKkH",
+              "levels": "BB"
+            },
+            "duration": {
+              "value": 46,
+              "text": "1 min"
+            },
+            "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e at \u003cb\u003eR. Con. Eugênio Leite\u003c/b\u003e",
+            "distance": {
+              "value": 266,
+              "text": "0.3 km"
+            }
+        }, {
+          "travel_mode": "DRIVING",
+            "start_location": {
+              "lat": -23.5644800,
+              "lng": -46.6801000
+            },
+            "end_location": {
+              "lat": -23.5642400,
+              "lng": -46.6792200
+            },
+            "polyline": {
+              "points": "~lynCre|{Go@gC?g@",
+              "levels": "B?B"
+            },
+            "duration": {
+              "value": 21,
+              "text": "1 min"
+            },
+            "html_instructions": "Take the 1st \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. dos Pinheiros\u003c/b\u003e \u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+            "distance": {
+              "value": 95,
+              "text": "0.1 km"
+            }
+        } ],
+          "duration": {
+            "value": 973,
+            "text": "16 mins"
+          },
+          "distance": {
+            "value": 7586,
+            "text": "7.6 km"
+          },
+          "start_location": {
+            "lat": -23.5489400,
+            "lng": -46.6388200
+          },
+          "end_location": {
+            "lat": -23.5642400,
+            "lng": -46.6792200
+          },
+          "start_address": "São Paulo, Brazil",
+          "end_address": "R. dos Pinheiros, 100 - Pinheiros, São Paulo, 05422-000, Brazil"
+      } ],
+      "copyrights": "Map data ©2010 MapLink",
+      "overview_polyline": {
+        "points": "zkvnCrct{Ga@BcAMwAs@kBiAeCsB_LaIiF{AoBmA}HwD}@q@}Im@MnCcAzGJn@bAl@l@HPP~JnQhG|GFVlCdDvBnDrBhBhC|CdCvDlEnDMjD^pDzHh]bGnM~KfWfItM~H~JvBvDf@jB^|CrArF`IjMjJxS|F|KzBxDfCnD`CbEpBbEuOfKzEnJfKkHo@gC?g@",
+        "levels": "B?????????@A??@???????????@??@??????????????@@@@?B"
+      },
+      "warnings": [ ],
+      "waypoint_order": [ ]
+    } ]
+}
