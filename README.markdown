@@ -18,6 +18,10 @@ Ruby API to geographic operations. Currently it supports:
     direction.to_html
     direction.to_html(:language => 'pt-BR')
 
+    cep = Cep.new('01310-000')
+    cep.street
+    cep.city
+
 ## LICENSE
 
 (The MIT License)
