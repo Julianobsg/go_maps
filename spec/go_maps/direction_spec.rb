@@ -22,12 +22,12 @@ describe GoMaps::Direction do
 
   context 'on #to_s' do
     it 'should return an html' do
-      map_addresses_to_file(@address1, @address2, "direction_success")
-      @direction.to_s.include?("Head <b>north</b> on <b>Av. Vinte e Três de Maio</b>").should be_true
+      map_addresses_to_file(@address1, @address2, 'direction_success')
+      @direction.to_s.include?('Head <b>north</b> on <b>Av. Vinte e Três de Maio</b>').should be_true
     end
 
     it 'should raise an address not found expection' do
-      map_addresses_to_file(@address1, @address2, "direction_error")
+      map_addresses_to_file(@address1, @address2, 'direction_error')
       lambda { @direction.to_s }.should raise_error(GoMaps::AddressNotFoundException)
     end
   end

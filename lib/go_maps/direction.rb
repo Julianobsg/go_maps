@@ -12,7 +12,7 @@ module GoMaps
     end
 
     def to_s
-      GoMaps::Address.new(@from).route_to(@to)["steps"].inject(""){|directions, step| directions << step["html_instructions"]}
+      Address.new(@from).route_to(@to)['steps'].inject(''){|directions, step| directions << step['html_instructions']}
     end
 
     private
