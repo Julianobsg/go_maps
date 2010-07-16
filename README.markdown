@@ -16,6 +16,7 @@ Ruby API to geographic operations. Currently it supports:
     direction.to_map
     direction.to_map(:width => 400, :height => 700)
     direction.to_html
+    direction.to_html(:language => 'pt-BR')
 
 ## LICENSE
 
