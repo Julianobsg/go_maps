@@ -1,0 +1,241 @@
+{
+  "status": "OK",
+  "routes": [ {
+    "summary": "Av. Brg. Faria Lima",
+    "legs": [ {
+      "steps": [ {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5642400,
+          "lng": -46.6792200
+        },
+        "end_location": {
+          "lat": -23.5644200,
+          "lng": -46.6784300
+        },
+        "polyline": {
+          "points": "nkynCb`|{G@qA`@kA",
+          "levels": "B?B"
+        },
+        "duration": {
+          "value": 13,
+          "text": "1 min"
+        },
+        "html_instructions": "Siga na direção \u003cb\u003eleste\u003c/b\u003e na \u003cb\u003eR. dos Pinheiros\u003c/b\u003e em direção à \u003cb\u003eR. Francisco Leitão\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e85&nbsp;m\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 85,
+          "text": "85 m"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5644200,
+          "lng": -46.6784300
+        },
+        "end_location": {
+          "lat": -23.5693200,
+          "lng": -46.6876400
+        },
+        "polyline": {
+          "points": "rlynCd{{{Gr]px@",
+          "levels": "BB"
+        },
+        "duration": {
+          "value": 142,
+          "text": "2 minutos"
+        },
+        "html_instructions": "Vire à \u003cb\u003edireita\u003c/b\u003e na \u003cb\u003eAv. Rebouças\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e1,1&nbsp;km\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 1085,
+          "text": "1,1 km"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5693200,
+          "lng": -46.6876400
+        },
+        "end_location": {
+          "lat": -23.5706800,
+          "lng": -46.6904100
+        },
+        "polyline": {
+          "points": "fkznCvt}{GnGhP",
+          "levels": "BB"
+        },
+        "duration": {
+          "value": 71,
+          "text": "1 min"
+        },
+        "html_instructions": "Curva suave à \u003cb\u003edireita\u003c/b\u003e para permanecer na \u003cb\u003eAv. Rebouças\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e300&nbsp;m\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 321,
+          "text": "0,3 km"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5706800,
+          "lng": -46.6904100
+        },
+        "end_location": {
+          "lat": -23.5693900,
+          "lng": -46.6916500
+        },
+        "polyline": {
+          "points": "vsznC`f~{GBr@Mh@kBjAkClA",
+          "levels": "B???B"
+        },
+        "duration": {
+          "value": 18,
+          "text": "1 min"
+        },
+        "html_instructions": "Pegue a rampa de acesso para a \u003cb\u003eAv. Brg. Faria Lima\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e210&nbsp;m\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 208,
+          "text": "0,2 km"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5693900,
+          "lng": -46.6916500
+        },
+        "end_location": {
+          "lat": -23.5945400,
+          "lng": -46.6803600
+        },
+        "polyline": {
+          "points": "tkznCxm~{GAr@|p@q^nLaG`DoAvBk@xTmIpF}@zJcCdIsAxR_EvLqB",
+          "levels": "B?????@????B"
+        },
+        "duration": {
+          "value": 373,
+          "text": "6 minutos"
+        },
+        "html_instructions": "Faça um \u003cb\u003eretorno\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e3,1&nbsp;km\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 3084,
+          "text": "3,1 km"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5945400,
+          "lng": -46.6803600
+        },
+        "end_location": {
+          "lat": -23.5950500,
+          "lng": -46.6821700
+        },
+        "polyline": {
+          "points": "zh_oCfg|{GdBhJ",
+          "levels": "BB"
+        },
+        "duration": {
+          "value": 31,
+          "text": "1 min"
+        },
+        "html_instructions": "Vire à \u003cb\u003edireita\u003c/b\u003e na \u003cb\u003eR. Elvira Ferraz\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e190&nbsp;m\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 192,
+          "text": "0,2 km"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5950500,
+          "lng": -46.6821700
+        },
+        "end_location": {
+          "lat": -23.5961200,
+          "lng": -46.6873500
+        },
+        "polyline": {
+          "points": "`l_oCpr|{GXlCYfBvBfN|AlH",
+          "levels": "B???B"
+        },
+        "duration": {
+          "value": 85,
+          "text": "1 min"
+        },
+        "html_instructions": "Continue para \u003cb\u003eR. Olimpíadas\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e550&nbsp;m\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 549,
+          "text": "0,5 km"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5961200,
+          "lng": -46.6873500
+        },
+        "end_location": {
+          "lat": -23.5959300,
+          "lng": -46.6877500
+        },
+        "polyline": {
+          "points": "vr_oC|r}{Ge@nA",
+          "levels": "BB"
+        },
+        "duration": {
+          "value": 13,
+          "text": "1 min"
+        },
+        "html_instructions": "Curva suave à \u003cb\u003edireita\u003c/b\u003e na \u003cb\u003eR. Gomes de Carvalho\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e46&nbsp;m\u003c/b\u003e\u003c/span\u003e",
+        "distance": {
+          "value": 46,
+          "text": "46 m"
+        }
+      }, {
+        "travel_mode": "DRIVING",
+        "start_location": {
+          "lat": -23.5959300,
+          "lng": -46.6877500
+        },
+        "end_location": {
+          "lat": -23.5962400,
+          "lng": -46.6879000
+        },
+        "polyline": {
+          "points": "pq_oClu}{G|@\\",
+          "levels": "BB"
+        },
+        "duration": {
+          "value": 13,
+          "text": "1 min"
+        },
+        "html_instructions": "Vire à \u003cb\u003eesquerda\u003c/b\u003e na \u003cb\u003eR. Tenerife\u003c/b\u003e \u003cspan style=\"white-space: nowrap\"\u003e- siga \u003cb\u003e38&nbsp;m\u003c/b\u003e\u003c/span\u003e\u003cdiv style=\"font-size:0.9em\"\u003eO destino estará à esquerda\u003c/div\u003e",
+        "distance": {
+          "value": 38,
+          "text": "38 m"
+        }
+      } ],
+      "duration": {
+        "value": 759,
+        "text": "13 minutos"
+      },
+      "distance": {
+        "value": 5608,
+        "text": "5,6 km"
+      },
+      "start_location": {
+        "lat": -23.5642400,
+        "lng": -46.6792200
+      },
+      "end_location": {
+        "lat": -23.5962400,
+        "lng": -46.6879000
+      },
+      "start_address": "R. dos Pinheiros, 100 - Pinheiros, São Paulo, 05422-000, Brasil",
+      "end_address": "R. Tenerife, 31 - Itaim Bibi, São Paulo, 04548-040, Brasil"
+    } ],
+    "copyrights": "Map data ©2010 MapLink",
+    "overview_polyline": {
+      "points": "nkynCb`|{G@qA`@kAr]px@nGhPBr@Mh@kBjAkClAAr@bJ}E~ByApl@i[~EuBpCw@xTmIpF}@zJcCdIsAxR_EvLqBdBhJTjBB`@YfBvBfN|AlHe@nA|@\\",
+      "levels": "B?@?@????A?????@????A???????B"
+    },
+    "warnings": [ ],
+    "waypoint_order": [ ]
+  } ]
+}

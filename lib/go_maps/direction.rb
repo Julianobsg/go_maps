@@ -11,8 +11,8 @@ module GoMaps
       "<iframe width='#{options[:width]}' height='#{options[:height]}' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='#{map_url(@from, @to)}'></iframe>"
     end
 
-    def to_html
-      Address.new(@from).route_to(@to)['steps'].inject(''){|directions, step| directions << step['html_instructions']}
+    def to_html(options = {})
+      Address.new(@from).route_to(@to, :language => options[:language])['steps'].inject(''){|directions, step| directions << step['html_instructions']}
     end
 
     private

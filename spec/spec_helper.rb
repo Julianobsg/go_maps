@@ -10,8 +10,9 @@ Spec::Runner.configure do |config|
   FakeWeb.allow_net_connect = false
 end
 
-def map_addresses_to_file(address1, address2, file_name)
-  map_query_string_to_file "origin=#{address1}&destination=#{address2}", file_name
+def map_addresses_to_file(address1, address2, file_name, options = {})
+  options[:language] ||= "en"
+  map_query_string_to_file "origin=#{address1}&destination=#{address2}&language=#{options[:language]}", file_name
 end
 
 def map_address_to_file(address, file_name)

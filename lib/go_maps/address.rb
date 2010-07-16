@@ -12,14 +12,15 @@ module GoMaps
       route_to(address)['distance']['text'].to_f
     end
 
-    def route_to(address)
-      directions_to(address)['routes'].first['legs'].first rescue raise AddressNotFoundException
+    def route_to(address, options = {})
+      options[:language] ||= 'en'
+      directions_to(address, "&language=#{options[:language]}")['routes'].first['legs'].first rescue raise AddressNotFoundException
     end
 
     private
 
-    def directions_to(address)
-      api_response :directions, "origin=#{@address}&destination=#{address}"
+    def directions_to(address, language)
+      api_response :directions, "origin=#{@address}&destination=#{address}#{language}"
     end
 
     def location
