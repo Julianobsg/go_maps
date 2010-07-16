@@ -6,9 +6,9 @@ module GoMaps
     end
 
     def to_map(options = {})
-      width = options[:width] || 425
-      height = options[:height] || 350
-      "<iframe width='#{width}' height='#{height}' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='#{map_url(@from, @to)}'></iframe>"
+      options[:width] ||= 425
+      options[:height] ||= 350
+      "<iframe width='#{options[:width]}' height='#{options[:height]}' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='#{map_url(@from, @to)}'></iframe>"
     end
 
     def to_html
