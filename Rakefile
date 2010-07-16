@@ -15,6 +15,7 @@ begin
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_development_dependency "fakeweb", ">= 1.2.8"
     gem.add_dependency("crack", ">= 0.1.6")
+    gem.add_dependency("nokogiri", ">= 1.4.1")
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

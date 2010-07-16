@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="iso-8859-1" ?><webservicecep><quantidade>1</quantidade><retorno><resultado>-1</resultado><local_busca>loc</local_busca><resultado_txt>cep nao encontrado</resultado_txt><cep>12345678</cep><codigo_ibge>codigo ibge nao encontrado</codigo_ibge></retorno></webservicecep>
