@@ -3,8 +3,10 @@
 Ruby API to geographic operations. Currently it supports:
 
 * Validation of an address
-* Distance between two addresses.
+* Distance between two addresses
 * Map with route between two addresses
+* Directions in HTML format between two addresses
+* Load address data from a CEP (only for Brazil)
 
 ## USAGE
 
