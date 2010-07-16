@@ -14,7 +14,8 @@ Ruby API to geographic operations. Currently it supports:
     address.distance_to "Av Paulista, Sao Paulo, Brasil"
     => 6.3
 
-    direction = GoMaps::Direction.new(:from => "Av Paulista 100, Sao Paulo, Brasil", :to => "Avenida Brigadeiro Faria Lima 1000, Sao Paulo, Brasil")
+    direction = GoMaps::Direction.new(:from => "Av Paulista 100, Sao Paulo, Brasil",
+                                      :to => "Avenida Brigadeiro Faria Lima 1000, Sao Paulo, Brasil")
     direction.to_map
     direction.to_map(:width => 400, :height => 700)
     direction.to_html
