@@ -22,6 +22,25 @@ Ruby API to geographic operations. Currently it supports:
     cep.street
     cep.city
 
+    address = GoMaps::Address.new "Rua Tenerife, 31, Sao Paulo, Brasil"
+    address.exists?
+    => true
+    address.distance_to "Av Paulista, Sao Paulo, Brasil"
+    => 6.3
+
+    direction = GoMaps::Direction.new(:from => "Av Paulista 100, Sao Paulo, Brasil", :to => "Avenida Brigadeiro Faria Lima 1000, Sao Paulo, Brasil")
+    direction.to_map
+    direction.to_map(:width => 400, :height => 700)
+    direction.to_html
+    direction.to_html(:language => 'pt-BR')
+
+    cep = GoMaps::CEP.new('01310-000')
+    cep.street
+    => "Avenida Paulista"
+    cep.city
+    => "São Paulo"
+
+
 ## LICENSE
 
 (The MIT License)
