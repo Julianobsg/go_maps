@@ -1,12 +1,12 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe GoMaps::Direction do
-  context 'on #to_map' do
-    before :each do
-      @address1, @address2 = 'Invalid Address 1', 'Invalid Address 2'
-      @direction = GoMaps::Direction.new(:from => @address1, :to => @address2)
-    end
+  before :each do
+    @address1, @address2 = 'Valid Address 1', 'Valid Address 2'
+    @direction = GoMaps::Direction.new(:from => @address1, :to => @address2)
+  end
 
+  context 'on #to_map' do
     it 'should return a map' do
       @direction.to_map.should eql("<iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com/maps?ie=UTF8&output=embed&saddr=#{@address1}&daddr=#{@address2}'></iframe>")
     end
@@ -17,6 +17,18 @@ describe GoMaps::Direction do
 
     it 'should accept height as an option' do
       @direction.to_map(:height => 444).include?('height=\'444\'').should be_true
+    end
+  end
+
+  context 'on #to_s' do
+    it 'should return an html' do
+      map_addresses_to_file(@address1, @address2, "direction_success")
+      @direction.to_s.include?("Head <b>north</b> on <b>Av. Vinte e Três de Maio</b>").should be_true
+    end
+
+    it 'should raise an address not found expection' do
+      map_addresses_to_file(@address1, @address2, "direction_error")
+      lambda { @direction.to_s(@address1, @address2) }.should raise_error(GoMaps::AddressNotFoundException)
     end
   end
 end
