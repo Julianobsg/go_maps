@@ -28,7 +28,7 @@ describe GoMaps::Direction do
 
     it 'should return an html with a language specified' do
       map_addresses_to_file(@address1, @address2, 'direction_success_pt-BR', :language => 'pt-BR')
-      @direction.to_html(:language => 'pt-BR').include?('Siga na direção <b>leste</b> na <b>R. dos Pinheiros</b>').should be_true
+      @direction.to_html(:language => 'pt-BR').should include('<div class="step">Siga na direção <b>leste</b> na <b>R. dos Pinheiros</b> em direção à <b>R. Francisco Leitão</b> <span style="white-space: nowrap">- siga <b>85&nbsp;m</b></span></div>')
     end
 
     it 'should raise an address not found expection' do

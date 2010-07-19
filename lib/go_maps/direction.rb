@@ -12,7 +12,7 @@ module GoMaps
     end
 
     def to_html(options = {})
-      Address.new(@from).route_to(@to, :language => options[:language])['steps'].map { |step| step['html_instructions'] }.join
+      Address.new(@from).route_to(@to, :language => options[:language])['steps'].map { |step| "<div class=\"step\">#{step['html_instructions']}</div>" }.join
     end
 
     private
