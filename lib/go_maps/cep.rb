@@ -1,12 +1,12 @@
 module GoMaps
   class CEP
     def initialize(cep)
-      @response = Nokogiri::XML(open("http://www.buscarcep.com.br?formato=xml&cep=#{cep}"))
-      raise GoMaps::AddressNotFoundException if element('resultado') != '1'
+      @response = Nokogiri::XML(open("http://www.bronzebusiness.com.br/webservices/wscep.asmx/cep?strcep=#{cep}"))
+      raise GoMaps::AddressNotFoundException if element('tbCEP').blank?
     end
 
     def street
-      "#{element('tipo_logradouro')} #{element('logradouro')}"
+      "#{element('logradouro')} #{element('nome')}"
     end
 
     def city
@@ -16,7 +16,7 @@ module GoMaps
     private
 
     def element(name)
-      @response.css(name).inner_text
+      @response.xpath("//#{name}").inner_text
     end
   end
 end
