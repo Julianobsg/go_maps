@@ -7,7 +7,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "go_maps"
-    gem.version = "0.3.1"
+    gem.version = "0.3.2"
     gem.summary = %Q{Ruby API to geographic operations}
     gem.description = %Q{Ruby API to geographic operations}
     gem.homepage = "http://github.com/gonow/go_maps"
