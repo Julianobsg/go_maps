@@ -18,11 +18,11 @@ module GoMaps
     end
 
     def latitude
-      location["results"].first["geometry"]["location"]["lat"]
+      geometry["lat"]
     end
 
     def longitude
-      location["results"].first["geometry"]["location"]["lng"]
+      geometry["lng"]
     end
 
     private
@@ -33,6 +33,10 @@ module GoMaps
 
     def location
       api_response :geocode, "address=#{@address}"
+    end
+
+    def geometry
+      location["results"].first["geometry"]["location"]
     end
 
     def api_response(api, query_string)
