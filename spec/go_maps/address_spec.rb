@@ -29,11 +29,11 @@ describe GoMaps::Address do
     end
   end
 
-  context "on #lat" do
+  context "on #latitude" do
     it "should return the address latitude" do
       address = 'Valid Address'
       map_address_to_file address, 'address_success'
-      GoMaps::Address.new(address).lat.should eql(-20.801184)
+      GoMaps::Address.new(address).latitude.should eql(-20.801184)
     end
   end
 
