@@ -17,6 +17,10 @@ module GoMaps
       directions_to(address, "&language=#{options[:language]}")['routes'].first['legs'].first rescue raise AddressNotFoundException
     end
 
+    def lat
+      location["results"].first["geometry"]["location"]["lat"]
+    end
+
     private
 
     def directions_to(address, language)

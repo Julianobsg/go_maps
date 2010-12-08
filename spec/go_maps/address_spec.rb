@@ -28,5 +28,13 @@ describe GoMaps::Address do
       lambda { GoMaps::Address.new(address1).distance_to(address2) }.should raise_error(GoMaps::AddressNotFoundException)
     end
   end
+
+  context "on #lat" do
+    it "should return the address latitude" do
+      address = 'Valid Address'
+      map_address_to_file address, 'address_success'
+      GoMaps::Address.new(address).lat.should eql(-20.801184)
+    end
+  end
 end
 
