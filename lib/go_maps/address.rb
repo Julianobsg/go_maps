@@ -21,6 +21,10 @@ module GoMaps
       location["results"].first["geometry"]["location"]["lat"]
     end
 
+    def longitude
+      location["results"].first["geometry"]["location"]["lng"]
+    end
+
     private
 
     def directions_to(address, language)

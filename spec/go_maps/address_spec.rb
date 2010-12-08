@@ -36,5 +36,13 @@ describe GoMaps::Address do
       GoMaps::Address.new(address).lat.should eql(-20.801184)
     end
   end
+
+  context "on #longitude" do
+    it "should return the address longitude" do
+      address = 'Valid Address'
+      map_address_to_file address, 'address_success'
+      GoMaps::Address.new(address).longitude.should eql(-49.3747043)
+    end
+  end
 end
 
