@@ -44,5 +44,16 @@ describe GoMaps::Address do
       GoMaps::Address.new(address).longitude.should eql(-49.3747043)
     end
   end
+
+  context "when requesting coordenates" do
+    it "should call the Google Maps service only once" do
+      address = 'Valid Address'
+      map_address_to_file address, 'address_success'
+      gomaps = GoMaps::Address.new address
+      gomaps.latitude
+      gomaps.should_not_receive(:open)
+      gomaps.longitude
+    end
+  end
 end
 

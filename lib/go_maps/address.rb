@@ -36,7 +36,7 @@ module GoMaps
     end
 
     def geometry
-      location["results"].first["geometry"]["location"]
+      @geometry ||= location["results"].first["geometry"]["location"]
     end
 
     def api_response(api, query_string)
