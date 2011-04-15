@@ -18,6 +18,12 @@ describe GoMaps::CEP do
         @cep.city.should eql('São Paulo')
       end
     end
+
+    context 'on #uf' do
+      it "should return the uf" do
+        @cep.uf.should eql('SP')
+      end
+    end
   end
 
   context 'given invalid cep' do

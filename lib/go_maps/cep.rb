@@ -10,7 +10,11 @@ module GoMaps
     end
 
     def city
-      element('cidade')
+      element 'cidade'
+    end
+
+    def uf
+      element 'uf'
     end
 
     private
