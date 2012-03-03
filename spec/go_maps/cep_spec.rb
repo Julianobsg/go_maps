@@ -13,6 +13,12 @@ describe GoMaps::CEP do
       end
     end
 
+    context 'on #neighborhood' do
+      it 'should return the neighborhood' do
+        @cep.street.should eql('Bela Vista')
+      end
+    end
+    
     context 'on #city' do
       it 'should return the city' do
         @cep.city.should eql('São Paulo')
