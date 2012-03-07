@@ -15,7 +15,7 @@ describe GoMaps::CEP do
 
     context 'on #neighborhood' do
       it 'should return the neighborhood' do
-        @cep.street.should eql('Bela Vista')
+        @cep.neighborhood.should eql('Bela Vista')
       end
     end
     
