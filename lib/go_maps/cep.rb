@@ -8,7 +8,11 @@ module GoMaps
     def street
       "#{element('tipo_logradouro')} #{element('logradouro')}"
     end
-
+    
+    def neighborhood
+      element 'bairro'
+    end
+    
     def city
       element 'cidade'
     end
